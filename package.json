@@ -21,6 +21,10 @@
   "scripts": {
     "test": "node test/smoke.mjs && node test/client-smoke.mjs"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinkMN/dsh-mcp-viewer.git"
+  },
   "license": "MIT",
   "keywords": [
     "dsh",
