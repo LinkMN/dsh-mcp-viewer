@@ -11,6 +11,7 @@
   },
   "files": [
     "lib",
+    "test",
     "cordis.patch.yml",
     "README.md",
     "LICENSE"
@@ -28,17 +29,3 @@
   "license": "MIT",
   "keywords": [
     "dsh",
-    "dsh-plugin",
-    "deepseek-harness",
-    "mcp"
-  ],
-  "dsh": {
-    "bundle": {
-      "patch": "./cordis.patch.yml"
-    },
-    "client": {
-      "platform": "web"
-    },
-    "manifestVersion": 1
-  }
-}
