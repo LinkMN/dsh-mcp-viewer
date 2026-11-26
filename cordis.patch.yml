@@ -1,0 +1,11 @@
+# dsh-mcp-viewer — bundle patch layer
+#
+# One loader row. The host half serves GET /dsh-mcp-viewer/api; the client half
+# registers one Settings section that renders the answer. Read-only: no writes.
+#
+# `insert:` (a list of NEW entries), never a bare `- id:` row: a bare row only
+# overrides an entry that some bundle layer already declared under that id, and
+# is silently ignored when none exists.
+- insert:
+    - id: mcp-viewer
+      name: 'dsh-mcp-viewer'

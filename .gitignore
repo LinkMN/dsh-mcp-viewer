@@ -1,0 +1,6 @@
+node_modules/
+.tmp-profile/
+*.log
+.DS_Store
+scratch-*.cjs
+.scratch*
